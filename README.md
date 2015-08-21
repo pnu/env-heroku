@@ -1,10 +1,12 @@
-NAME
-    Env::Heroku - set Heroku add-on specific environment variables
+# NAME
 
-VERSION
-    0.001
+Env::Heroku - set Heroku add-on specific environment variables
 
-SYNOPSIS
+# VERSION
+
+version 0.001
+
+# SYNOPSIS
     ## app.psgi
     use Env::Heroku::Pg;
     use Env::Heroku::Redis;
@@ -21,7 +23,7 @@ SYNOPSIS
         ],
     }
 
-DESCRIPTION
+# DESCRIPTION
     Set Heroku add-on specific environment variables from Heroku
     config environment variables to the respective default variables.
 
@@ -34,14 +36,16 @@ DESCRIPTION
     in configuration files that are under version control, but use the Heroku
     env/config pattern to manage such attached resources.
 
-SEE ALSO
+# SEE ALSO
     http://12factor.net/
 
-AUTHOR
-    Panu Ervamaa <pnu@cpan.org>
+# AUTHOR
 
-COPYRIGHT AND LICENSE
-    This software is copyright (c) 2015 by Panu Ervamaa.
+Panu Ervamaa &lt;pnu@cpan.org>
 
-    This is free software; you can redistribute it and/or modify it under
-    the same terms as the Perl 5 programming language system itself.
+# COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2015 by Panu Ervamaa.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
