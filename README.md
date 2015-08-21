@@ -4,9 +4,10 @@ Env::Heroku - set Heroku add-on specific environment variables
 
 # VERSION
 
-version 0.001
+version 0.002
 
 # SYNOPSIS
+
     ## app.psgi
     use Env::Heroku::Pg;
     use Env::Heroku::Redis;
@@ -24,6 +25,7 @@ version 0.001
     }
 
 # DESCRIPTION
+
     Set Heroku add-on specific environment variables from Heroku
     config environment variables to the respective default variables.
 
@@ -37,6 +39,7 @@ version 0.001
     env/config pattern to manage such attached resources.
 
 # SEE ALSO
+
     http://12factor.net/
 
 # AUTHOR

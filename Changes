@@ -1,6 +1,7 @@
 Changelog for Env::Redis
 
 {{$NEXT}}
+  * Minor documentation changes
 
 0.001     2015-08-21 17:56:48+03:00 Europe/Helsinki
   * Initial release

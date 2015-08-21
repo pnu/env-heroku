@@ -5,6 +5,7 @@ package Env::Heroku;
 # VERSION
 
 =head1 SYNOPSIS
+
     ## app.psgi
     use Env::Heroku::Pg;
     use Env::Heroku::Redis;
@@ -22,6 +23,7 @@ package Env::Heroku;
     }
 
 =head1 DESCRIPTION
+
     Set Heroku add-on specific environment variables from Heroku
     config environment variables to the respective default variables.
 
@@ -35,6 +37,7 @@ package Env::Heroku;
     env/config pattern to manage such attached resources.
 
 =head1 SEE ALSO
+
     http://12factor.net/
 
 =cut
